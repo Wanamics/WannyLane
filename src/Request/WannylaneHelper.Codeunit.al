@@ -1,10 +1,5 @@
 namespace Wanamics.Wannylane.Request;
-#if AppSource
-codeunit 71544434
-#else
-codeunit 87434
-#endif
-"Wannylane Helper"
+codeunit 87434 "Wannylane Helper"
 {
     procedure TokenToRecRef(pToken: JsonToken; pRecRef: RecordRef)
     var

@@ -2,12 +2,7 @@ namespace Wannylane.Wannylane.Transactions;
 
 using Microsoft.Bank.Reconciliation;
 
-#if AppSource
-page 71544433
-#else
-page 87433
-#endif
-"Wannylane Pmt. Rec. Split"
+page 87433 "Wannylane Pmt. Rec. Split"
 {
     ApplicationArea = All;
     Caption = 'Split Line';

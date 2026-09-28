@@ -2,12 +2,7 @@ namespace Wanamics.Wannylane.Transactions;
 
 using Microsoft.Bank.Statement;
 
-#if AppSource
-tableextension 71544432
-#else
-tableextension 87432
-#endif
-"Wannylane Bank Acc. Statement" extends "Bank Account Statement"
+tableextension 87432 "Wannylane Bank Acc. Statement" extends "Bank Account Statement"
 {
     fields
     {

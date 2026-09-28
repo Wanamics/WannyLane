@@ -321,11 +321,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1256359050 - Method 4229563359 - NamedType 2127079783" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1256359050 - Method 1791532363 - NamedType 2127079783" size-unit="char" translate="yes" xml:space="preserve">
           <source>Apikey is empty</source>
           <target>La clé API est vide</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Method HasApiKey - NamedType ApiKeyIsEmptyErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Method GetApiKey - NamedType ApiKeyIsEmptyErr</note>
         </trans-unit>
         <trans-unit id="Table 1256359050 - Method 59423316 - NamedType 684246044" size-unit="char" translate="yes" xml:space="preserve">
           <source>Initializing #1############################</source>
@@ -519,17 +519,17 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action Schedule - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1256359050 - Action 2770046458 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Test Authentication</source>
-          <target>Tester l'authentification</target>
+        <trans-unit id="Page 1256359050 - Action 4263468516 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Connection</source>
+          <target>Tester la connexion</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action TestAuthentication - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action TestConnection - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1256359050 - Action 2770046458 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Test Authentication</source>
-          <target>Tester l'authentification</target>
+        <trans-unit id="Page 1256359050 - Action 4263468516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Connection</source>
+          <target>Tester la connexion</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action TestAuthentication - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action TestConnection - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 809022283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Wannylane Transaction</source>

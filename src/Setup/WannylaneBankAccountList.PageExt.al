@@ -3,12 +3,7 @@ namespace Wannylane.Wannylane.Setup;
 using Microsoft.Bank.BankAccount;
 using Wanamics.Wannylane.Setup;
 
-#if AppSource
-pageextension 71544434
-#else
-pageextension 87434
-#endif
-"Wannylane Bank Account List" extends "Bank Account List"
+pageextension 87434 "Wannylane Bank Account List" extends "Bank Account List"
 {
     layout
     {

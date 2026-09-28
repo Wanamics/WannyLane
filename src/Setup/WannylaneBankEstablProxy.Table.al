@@ -1,11 +1,7 @@
 namespace Wanamics.Wannylane.Setup;
 
 using Wanamics.Wannylane.Request;
-#if AppSource
-table 71544435 "SCGOB Bank"
-#else
 table 87435 "Wannylane Bank Establ. Proxy"
-#endif
 {
     Caption = 'Wannylane Bank Establishment';
     DataClassification = ToBeClassified;

@@ -3,12 +3,7 @@ namespace Wanamics.Wannylane.Transactions;
 using Microsoft.Bank.Reconciliation;
 using Microsoft.Finance.GeneralLedger.Account;
 using Microsoft.Finance.VAT.Setup;
-#if AppSource
-pageextension 71544432
-#else
-pageextension 87432
-#endif
-"Wannylane Pmt. Rec Match Det." extends "Payment Rec Match Details"
+pageextension 87432 "Wannylane Pmt. Rec Match Det." extends "Payment Rec Match Details"
 {
     layout
     {

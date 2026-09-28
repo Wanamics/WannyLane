@@ -38,8 +38,8 @@ Choisissez **Configuration Pennylane** et complétez la page comme suit&nbsp;:
 |||
 
 
-Vous pouvez alors **Tester l'authentification** qui devrait afficher un message mentionnant la société et les autorisations accordées : 
-![Authentification](images/Authentication.png)
+Vous pouvez alors **Tester la connection** qui devrait afficher un message mentionnant la société et les autorisations accordées : 
+![Authentification](images/TestConnection.png)
 
 
 Lier les compte bancaires

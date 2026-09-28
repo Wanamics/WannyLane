@@ -4,12 +4,7 @@ using Microsoft.Bank.Reconciliation;
 using Microsoft.Bank.BankAccount;
 using Microsoft.Bank.Statement;
 
-#if AppSource
-codeunit 71544433
-#else
-codeunit 87433
-#endif
-"Wannylane Trans. to Reconcile"
+codeunit 87433 "Wannylane Trans. to Reconcile"
 {
     trigger OnRun()
     var

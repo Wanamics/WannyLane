@@ -1,12 +1,7 @@
 namespace Wanamics.Wannylane.Transactions;
 
 using Microsoft.Bank.Reconciliation;
-#if AppSource
-pageextension 71544430
-#else
-pageextension 87430
-#endif
-"Wannylane Pmt. Rec. Journals" extends "Pmt. Reconciliation Journals"
+pageextension 87430 "Wannylane Pmt. Rec. Journals" extends "Pmt. Reconciliation Journals"
 {
     layout
     {

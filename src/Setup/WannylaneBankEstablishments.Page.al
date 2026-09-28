@@ -1,10 +1,6 @@
 namespace Wanamics.Wannylane.Setup;
 
-#if AppSource
-page 71544435 "Wannylane Bank Establishments"
-#else
 page 87435 "Wannylane Bank Establishments"
-#endif
 {
     ApplicationArea = All;
     UsageCategory = None;

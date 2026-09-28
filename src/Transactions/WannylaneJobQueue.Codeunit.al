@@ -2,12 +2,7 @@ namespace Wanamics.Wannylane.Transactions;
 
 using System.Threading;
 
-#if AppSource
-codeunit 71544432
-#else
-codeunit 87432
-#endif
-"Wannylane JobQueue"
+codeunit 87432 "Wannylane JobQueue"
 {
     TableNo = "Job Queue Entry";
 

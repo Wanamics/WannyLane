@@ -5,11 +5,7 @@ using Wanamics.Wannylane.Connect;
 using Wanamics.Wannylane.Transactions;
 using Wanamics.Wannylane.Request;
 
-#if AppSource
-permissionset 71544430 Wannylane_SETUP
-#else
 permissionset 87430 Wannylane_SETUP
-#endif
 {
     Caption = 'Wannylane Setup';
     Assignable = true;

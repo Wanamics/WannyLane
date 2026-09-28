@@ -2,11 +2,7 @@ namespace Wanamics.Wannylane.Connect;
 
 using Microsoft.Bank.BankAccount;
 using Wanamics.Wannylane.Transactions;
-#if AppSource
-page 71544431 "Wannylane Bank Accounts"
-#else
 page 87431 "Wannylane Bank Accounts"
-#endif
 {
     ApplicationArea = All;
     UsageCategory = None;
@@ -30,9 +26,9 @@ page 87431 "Wannylane Bank Accounts"
                 field("Currency Code"; Rec.currency)
                 {
                 }
-                field(IBAN; Rec.iban)
-                {
-                }
+                // field(IBAN; Rec.iban)
+                // {
+                // }
                 field(BankAccountNo; Rec.GetBankAccount()."No.")
                 {
                     Caption = 'Bank Account No.';

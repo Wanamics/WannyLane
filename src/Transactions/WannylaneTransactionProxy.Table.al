@@ -1,13 +1,6 @@
 namespace Wanamics.Wannylane.Transactions;
-using Microsoft.Bank.BankAccount;
-using Wanamics.Wannylane.Connect;
 using Wanamics.Wannylane.Request;
-#if AppSource
-table 71544432
-#else
-table 87432
-#endif
-"Wannylane Transaction Proxy"
+table 87432 "Wannylane Transaction Proxy"
 {
     Caption = 'Wannylane Transaction';
     DataClassification = ToBeClassified;

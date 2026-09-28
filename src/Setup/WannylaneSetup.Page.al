@@ -3,12 +3,7 @@ namespace Wanamics.Wannylane.Setup;
 using System.Security.User;
 using Wanamics.Wannylane.Connect;
 using Wanamics.Wannylane.Transactions;
-#if AppSource
-page 71544430 
-#else
-page 87430
-#endif
-"Wannylane Setup"
+page 87430 "Wannylane Setup"
 {
 
     PageType = Card;
@@ -90,10 +85,10 @@ page 87430
 
         area(Processing)
         {
-            action(TestAuthentication)
+            action(TestConnection)
             {
-                Caption = 'Test Authentication';
-                ToolTip = 'Test Authentication';
+                Caption = 'Test Connection';
+                ToolTip = 'Test Connection';
                 Image = Certificate;
                 trigger OnAction()
                 begin
@@ -131,7 +126,7 @@ page 87430
         }
         area(Promoted)
         {
-            actionRef(TestAuthentication_Promoted; TestAuthentication) { }
+            actionRef(TestConnection_Promoted; TestConnection) { }
             actionref(PennylaneBankAccounts_Promoted; PennylaneBankAccounts) { }
         }
     }

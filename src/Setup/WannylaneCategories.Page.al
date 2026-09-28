@@ -1,11 +1,6 @@
 namespace Wanamics.Wannylane.Setup;
 
-#if AppSource
-page 71544436
-#else
-page 87436
-#endif
-"Wannylane Categories"
+page 87436 "Wannylane Categories"
 {
     ApplicationArea = All;
     UsageCategory = None;

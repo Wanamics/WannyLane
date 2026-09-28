@@ -2,12 +2,7 @@ namespace Wanamics.Wannylane.Setup;
 
 using Wanamics.Wannylane.Connect;
 
-#if AppSource
-table 71544430
-#else
-table 87430
-#endif
-"Wannylane Setup"
+table 87430 "Wannylane Setup"
 {
     DataClassification = ToBeClassified;
     Caption = 'Wannylane Setup';
@@ -100,18 +95,15 @@ table 87430
             ApiKey := '****';
     end;
 
-    procedure HasApiKey(): Boolean
+    internal procedure GetApiKey(var ApiKey: SecretText) ReturnValue: Boolean
     var
         ApiKeyIsEmptyErr: Label 'Apikey is empty';
-        ApiKey: SecretText;
     begin
-        if not GetApiKey(ApiKey) then
-            Error(ApiKeyIsEmptyErr);
-    end;
-
-    internal procedure GetApiKey(var ApiKey: SecretText): Boolean
-    begin
-        exit(IsolatedStorage.Get(WannylaneApiKeyTok, DataScope::Company, ApiKey));
+        ReturnValue := IsolatedStorage.Get(WannylaneApiKeyTok, DataScope::Company, ApiKey);
+        if GuiAllowed then
+            if ApiKey.IsEmpty() then
+                Error(ApiKeyIsEmptyErr);
+        exit;
     end;
 
     var

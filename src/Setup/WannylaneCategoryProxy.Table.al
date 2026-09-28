@@ -1,12 +1,7 @@
 namespace Wanamics.Wannylane.Setup;
 
 using Wanamics.Wannylane.Request;
-#if AppSource
-table 71544436
-#else
-table 87436
-#endif
-"Wannylane Category Proxy"
+table 87436 "Wannylane Category Proxy"
 {
     Caption = 'Wannylane Category';
     DataClassification = ToBeClassified;

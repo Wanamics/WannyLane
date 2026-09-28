@@ -2,12 +2,7 @@ namespace Wanamics.Wannylane.Transactions;
 
 using Microsoft.Bank.Reconciliation;
 
-#if AppSource
-tableextension 71544431
-#else
-tableextension 87431
-#endif
-"Wannylane Bank Acc. Reconcil." extends "Bank Acc. Reconciliation"
+tableextension 87431 "Wannylane Bank Acc. Reconcil." extends "Bank Acc. Reconciliation"
 {
     fields
     {

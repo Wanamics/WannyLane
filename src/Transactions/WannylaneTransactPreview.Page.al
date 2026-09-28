@@ -2,12 +2,7 @@ namespace Wanamics.Wannylane.Transactions;
 using Wanamics.Wannylane.Setup;
 using Microsoft.Bank.BankAccount;
 using Wanamics.Wannylane.Connect;
-#if AppSource
-page 71544432
-#else
-page 87432
-#endif
-"Wannylane Transaction Preview"
+page 87432 "Wannylane Transaction Preview"
 {
     ApplicationArea = All;
     UsageCategory = None;

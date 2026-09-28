@@ -1,12 +1,7 @@
 namespace Wanamics.Wannylane.Setup;
 
 using Microsoft.Utilities;
-#if AppSource
-codeunit 71544430
-#else
-codeunit 87430
-#endif
-"Wannylane Setup Events"
+codeunit 87430 "Wannylane Setup Events"
 {
     [EventSubscriber(ObjectType::Table, Database::"Service Connection", OnRegisterServiceConnection, '', false, true)]
     local procedure OnRegisterServiceConnection(var ServiceConnection: Record "Service Connection")

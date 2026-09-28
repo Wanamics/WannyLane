@@ -4,14 +4,9 @@ using Wanamics.Wannylane.Setup;
 using Wanamics.Wannylane.Connect;
 using Wanamics.Wannylane.Transactions;
 using Wanamics.Wannylane.Request;
-// using Wanamics.Wannylane.BankHub;
-#if AppSource
-permissionset 71544431 Wannylane_TRANSAC
-#else
 permissionset 87431 Wannylane_TRANSAC
-#endif
 {
-    Caption = 'Wannylane Reconciliations';
+    Caption = 'Wannylane Transactions';
     Assignable = true;
     Permissions =
         tabledata "Wannylane Bank Account Proxy" = RM,

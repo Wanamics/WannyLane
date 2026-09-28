@@ -1,16 +1,8 @@
 namespace Wanamics.Wannylane.Request;
 
 using System.Security.Authentication;
-using System.Azure.Identity;
-using System.Environment;
-using Wanamics.Wannylane.Connect;
 using Wanamics.Wannylane.Setup;
-#if AppSource
-codeunit 71544431
-#else
-codeunit 87431
-#endif
-"Wannylane Request"
+codeunit 87431 "Wannylane Request"
 {
     var
         WannylaneSetup: Record "Wannylane Setup";
@@ -44,24 +36,14 @@ codeunit 87431
         ContentHeaders: HttpHeaders;
         ResponseText: Text;
     begin
-        // if WannylaneSetup."Base Endpoint" = '' then begin
         WannylaneSetup.Get();
         WannylaneSetup.TestField("Base Endpoint");
-        WannylaneSetup.HasApiKey();
         WannylaneSetup.GetApiKey(ApiKey);
         WannylaneSetup.TestField("Enabled");
-        // end;
+
         Client.DefaultRequestHeaders.Clear();
-        // Client.DefaultRequestHeaders.Add('Client-Id', ClientId());
-        // Client.DefaultRequestHeaders.Add('Client-Secret', ClientSecret());
-        // Client.DefaultRequestHeaders.Add('Wannylane-Version', WannylaneVersionLbl);
-        // if pRequireAuthorization then
-        //     Client.DefaultRequestHeaders.Add('authorization', 'Bearer ' + GetAccessToken());
         Client.DefaultRequestHeaders.Add('authorization', SecretStrSubstNo('Bearer %1', ApiKey));
         pContent.GetHeaders(ContentHeaders);
-        // ContentHeaders.Clear();
-        // ContentHeaders.Add('Content-Type', 'application/json');
-        // ContentHeaders.Add('accept', 'application/json');
 
         case pRequestType of
             "Http Request Type"::GET:

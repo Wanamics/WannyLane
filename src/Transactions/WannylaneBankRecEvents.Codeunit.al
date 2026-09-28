@@ -2,12 +2,7 @@ namespace Wanamics.Wannylane.Transactions;
 
 using Microsoft.Bank.Reconciliation;
 
-#if AppSource
-codeunit 71544435
-#else
-codeunit 87435
-#endif
-"Wannylane Bank Rec. Events"
+codeunit 87435 "Wannylane Bank Rec. Events"
 {
     [EventSubscriber(ObjectType::Table, Database::"Bank Acc. Reconciliation Line", OnBeforeValidateEvent, 'Account No.', false, false)]
     local procedure OnBeforeValidateAccountNo(var Rec: Record "Bank Acc. Reconciliation Line"; var xRec: Record "Bank Acc. Reconciliation Line"; CurrFieldNo: Integer)
