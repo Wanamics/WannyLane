@@ -1,0 +1,41 @@
+{
+  "id": "96cd4a5c-13fd-427c-8ff6-5f42e35925ab",
+  "name": "Pennylane Connector",
+  "publisher": "Wanamics",
+  "version": "1.0.0.42",
+  "logo": "Wanamics90x90.png",
+  "target": "Cloud",
+  "platform": "28.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+        "from": 87430,
+        "to": 87449
+      }
+  ],
+  "contextSensitiveHelpUrl": "https://www.wanamics.fr/Wannylane/",
+  "resourceExposurePolicy": 
+    {
+      "allowDebugging": true, 
+      "allowDownloadingSource": true, 
+      "includeSourceInSymbolFile": true,
+      "applyToDevExtension": true
+    },
+  "runtime": "17.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile", 
+    "GenerateCaptions"
+  ],
+  "dependencies": [
+  ],
+  "applicationInsightsConnectionString": "",
+  "brief": "Pennylane Connector",
+  "description": "Pennylane Connector using https://app.pennylane.com/api/external/v2/",
+  "privacyStatement": "https://www.wanamics.fr/Wannylane/Privacy",
+  "EULA": "https://www.wanamics.fr/Wannylane/EULA",
+  "help": "https://www.wanamics.fr/Wannylane/",
+  "url": "https://www.wanamics.fr/Wannylane/Wannylane.app",
+  "preprocessorSymbols": [
+  ]
+}

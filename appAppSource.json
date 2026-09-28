@@ -1,0 +1,47 @@
+{
+  "id": "419eedd7-bacb-4be0-8108-fbf45359a3e4",
+  "name": "Open Banking 365",
+  "publisher": "SBSI Consulting",
+  "version": "0.0.0.00",
+  "logo": "Wanamics90x90.png",
+  "target": "Cloud",
+  "platform": "26.0.0.0",
+  "application": "26.0.0.0",
+  "idRanges": [
+    {
+        "from": 8127430,
+        "to": 8127449
+      }
+      ,
+      {
+        "from": 71544430,
+        "to": 71544499
+      }
+  ],
+  "contextSensitiveHelpUrl": "https://www.wanamics.fr/Wannylane/",
+  "resourceExposurePolicy": 
+    {
+      "allowDebugging": false, 
+      "allowDownloadingSource": false, 
+      "includeSourceInSymbolFile": false,
+      "applyToDevExtension": false
+    },
+  "runtime": "14.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile", 
+    "GenerateCaptions"
+  ],
+  "dependencies": [
+  ],
+  "applicationInsightsConnectionString": "f1949427-7373-4f26-80d1-c308a99823bb",
+  "brief": "Pennylane connector",
+  "description": "Open Banking connector",
+  "privacyStatement": "https://www.wanamics.fr/Wannylane/Privacy",
+  "EULA": "https://www.wanamics.fr/Wannylane/EULA",
+  "help": "https://www.wanamics.fr/Wannylane/",
+  "url": "https://www.wanamics.fr/Wannylane/Wannylane.app",
+  "preprocessorSymbols": [
+    "AppSource"
+  ]
+}

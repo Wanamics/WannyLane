@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Pennylane Connector">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1112027766 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wannylane Bank Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Bank Account Proxy - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1112027766 - Method 2559632115 - NamedType 258279806" size-unit="char" translate="yes" xml:space="preserve">
+          <source>already linked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Bank Account Proxy - Method CheckAlreadyLinked - NamedType AlreadyLinkedErr</note>
+        </trans-unit>
+        <trans-unit id="Table 1112027766 - Field 2130846610 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Bank Account Proxy - Field balance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1112027766 - Field 3429870193 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Currency Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Bank Account Proxy - Field currency - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1112027766 - Field 2214516256 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the IBAN field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Bank Account Proxy - Field iban - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1112027766 - Field 2214516256 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IBAN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Bank Account Proxy - Field iban - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1112027766 - Field 2686962215 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Id field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Bank Account Proxy - Field id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1112027766 - Field 2686962215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Bank Account Proxy - Field id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1112027766 - Field 3558812865 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Bank Account Proxy - Field name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1112027766 - Field 3558812865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Bank Account Proxy - Field name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 947738951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wannylane Bank Accounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Bank Accounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 947738951 - Method 406216776 - NamedType 2694866922" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is already Linked to %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1: Pennylane bank account id, %2: Bank Account No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Bank Accounts - Method LinkBankAccounts - NamedType AlreadyLinkedMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 947738951 - Method 406216776 - NamedType 3431447212" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you wan to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Bank Accounts - Method LinkBankAccounts - NamedType ContinueMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 947738951 - Control 3540653242 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Bank Accounts - Control BankAccountNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 947738951 - Control 3540653242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Bank Accounts - Control BankAccountNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 947738951 - Action 4256014768 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transactions Preview</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Bank Accounts - Action WannylaneTransactionsPreview - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 947738951 - Action 4256014768 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transactions Preview</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Bank Accounts - Action WannylaneTransactionsPreview - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 947738951 - Action 4192625596 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Bank Accounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Bank Accounts - Action CreateBankAccounts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 947738951 - Action 4192625596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Bank Accounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Bank Accounts - Action CreateBankAccounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 947738951 - Action 4192625596 - Method 1377591017 - NamedType 3764383116" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to create %1 "%2"?</source>
+          <note from="Developer" annotates="general" priority="2">%1:Count, %2:BankAccount.TableCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Bank Accounts - Action CreateBankAccounts - Method OnAction - NamedType ConfirmLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 947738951 - Action 4028856648 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Link to Bank Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Bank Accounts - Action LinkToBankAccount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 947738951 - Action 4028856648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Link to Bank Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Bank Accounts - Action LinkToBankAccount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 47891919" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wannylane API return an error : %1 %2\%3</source>
+          <note from="Developer" annotates="general" priority="2">%1:StatusCode, %2:ReasonPhrase, %3:Content</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType ApiErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 1305559362" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 (%2)\%3 : %4</source>
+          <note from="Developer" annotates="general" priority="2">%1:StatusShortName, %2 StatusCode, %3:Request, %4:Response</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType ErrorMessageErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 4042279644" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bad request</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _400BadRequestErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 2539392736" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Access denied</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _401AccessDeniedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 3990970985" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Required</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _402PaymentRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 285304002" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Forbidden</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _403ForbiddenErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 3692618971" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not Found</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _404NotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 2928667155" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Method not allowed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _405MethodNotAllowedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 502427656" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request timed out</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _408RequestTimeOutErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 4292577051" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Conflict</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _409ConflictErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 4136666320" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gone</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _410GoneErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 1518204678" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Precondition Failed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _412PreconditionFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 1606980724" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payload Too Large / Request Entity Too Large</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _413PayloadTooLargeRequestEntityTooLargeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 3402414188" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TooManyRequests</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _429TooManyRequestsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 1332549655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Temporarily Unavailable</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _503ServiceTemporarilyUnavailableErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 23544580" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gateway Timeout</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _504GatewayTimeoutErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718653508 - Method 3351914939 - NamedType 3681695477" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An error occurred connecting to Wannylane</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method Request - NamedType ConnectErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1718653508 - Method 3351914939 - NamedType 1542347064" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 Request Type not implemented</source>
+          <note from="Developer" annotates="general" priority="2">%1: Http Request Type</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method Request - NamedType RequestTypeErr</note>
+        </trans-unit>
+        <trans-unit id="Table 2405834756 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wannylane Bank Establishment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Bank Establ. Proxy - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2405834756 - Field 2686962215 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Id field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Bank Establ. Proxy - Field id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2405834756 - Field 2686962215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Bank Establ. Proxy - Field id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2405834756 - Field 3558812865 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Bank Establ. Proxy - Field name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2405834756 - Field 3558812865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Bank Establ. Proxy - Field name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3419662135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wannylane Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Category Proxy - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3419662135 - Field 3339434903 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Direction field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Category Proxy - Field direction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3419662135 - Field 3339434903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIrection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Category Proxy - Field direction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3419662135 - Field 2686962215 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Id field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Category Proxy - Field id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3419662135 - Field 2686962215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Category Proxy - Field id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3419662135 - Field 2592457002 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Category Proxy - Field label - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3419662135 - Field 2592457002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Category Proxy - Field label - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1256359050 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wannylane Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1256359050 - Method 59423316 - NamedType 684246044" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Initializing #1############################</source>
+          <note from="Developer" annotates="general" priority="2">%1:Step (TableCaption)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Method Initialize - NamedType InProgressLbl</note>
+        </trans-unit>
+        <trans-unit id="Table 1256359050 - Field 4162414378 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base URL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Field Base Endpoint - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1256359050 - Field 4162414378 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base URL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Field Base Endpoint - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1256359050 - Field 2891538263 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Field Enabled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1256359050 - Field 2891538263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Field Enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 187176147 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pennylane Bank Establishments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Bank Establishments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 187176147 - Action 2026913255 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh the list</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Bank Establishments - Action Refresh - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 187176147 - Action 2026913255 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Bank Establishments - Action Refresh - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 187176147 - Action 2026913255 - Method 1377591017 - NamedType 2294662597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you wish to refresh this list?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Bank Establishments - Action Refresh - Method OnAction - NamedType ConfirmMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 2874638105 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wannylane Categories</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Categories - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2874638105 - Action 2026913255 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Categories - Action Refresh - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2874638105 - Action 2026913255 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Categories - Action Refresh - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2874638105 - Action 2026913255 - Method 1377591017 - NamedType 2294662597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you wish to refresh this list?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Categories - Action Refresh - Method OnAction - NamedType ConfirmMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wannylane Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Method 716454850 - NamedType 2195161150" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must be a SUPER user.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Method OnOpenPage - NamedType MustBeSuperUserLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Control 4253087169 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the token.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Control API Key - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Control 4253087169 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API Token</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Control API Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Action 3248896082 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pennylane Bank Accounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action PennylaneBankAccounts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Action 3248896082 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pennylane Bank Accounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action PennylaneBankAccounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Action 3226968784 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pennylane Categories</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action PennylaneCategories - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Action 3226968784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pennylane Categories</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action PennylaneCategories - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Action 118337928 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pennylane Establishments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action PennylaneEstablishments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Action 118337928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pennylane Establishments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action PennylaneEstablishments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Action 3022632585 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pennylane Transactions Preview</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action PennylaneTrnasactionsPreview - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Action 3022632585 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pennylane Transactions Preview</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action PennylaneTrnasactionsPreview - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Action 2118687730 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reset Default</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action ResetDefault - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Action 2118687730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reset Default</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action ResetDefault - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Action 2118687730 - Method 1377591017 - NamedType 3764383116" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WARNING :\Do you want to cancel all bank connections for all your companies?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action ResetDefault - Method OnAction - NamedType ConfirmLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Action 2019212495 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Schedule</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action Schedule - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Action 2019212495 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Schedule</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action Schedule - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Action 2770046458 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Authentication</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action TestAuthentication - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Action 2770046458 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Authentication</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action TestAuthentication - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 809022283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wannylane Transaction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Transaction Proxy - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 809022283 - Field 1121446808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Transaction Proxy - Field amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 809022283 - Field 3429870193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Transaction Proxy - Field currency - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 809022283 - Field 100021640 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Transaction Proxy - Field currency_amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 809022283 - Field 3193295922 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Fee</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Transaction Proxy - Field currency_fee - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 809022283 - Field 895206272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Transaction Proxy - Field date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 809022283 - Field 3021217026 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fee</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Transaction Proxy - Field fee - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 809022283 - Field 691165220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Interbank Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Transaction Proxy - Field interbank_code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 809022283 - Field 2592457002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Transaction Proxy - Field label - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 809022283 - Field 2126525473 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Updated at</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Transaction Proxy - Field updated_at - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3213977254 - Method 107581928 - NamedType 2723982390" size-unit="char" translate="yes" xml:space="preserve">
+          <source>must be the first one for this bank account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Bank Rec. Events - Method OnBeforeBankAccReconPostYesNo - NamedType MustBeTheFirstOneErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3213977254 - Method 1407619943 - NamedType 4137510078" size-unit="char" translate="yes" xml:space="preserve">
+          <source>must be the last one for this bank account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Bank Rec. Events - Method OnBeforeDeleteEvent - NamedType MustBeTheLastOneErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3213977254 - Method 4254706052 - NamedType 2377415691" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cannot be later than %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1: FieldCaption("Statement Date")</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Bank Rec. Events - Method OnBeforePost - NamedType CannotBeLaterThanLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3213977254 - Method 4169402506 - NamedType 2638570128" size-unit="char" translate="yes" xml:space="preserve">
+          <source>can't be the statement one</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Bank Rec. Events - Method OnBeforeValidateAccountNo - NamedType CantBeBankAccountNoErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4141978396 - Method 1665861916 - NamedType 1905252384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warning : %1 (day before Workdate) will be used as transactions filter.</source>
+          <note from="Developer" annotates="general" priority="2">%1: WorkDate</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Trans. to Reconcile - Method OnRun - NamedType DateWarningLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4141978396 - Method 1665861916 - NamedType 348515413" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Trans. to Reconcile - Method OnRun - NamedType ContinueLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4141978396 - Method 1665861916 - NamedType 3764383116" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to create "%1" from "%2" for %3 "%4"?</source>
+          <note from="Developer" annotates="general" priority="2">%1: BankAccReconciliation.TableCaption, %2:WannylaneAccount.TableCaption, %3:Count, %4:BankAccount.TableCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Trans. to Reconcile - Method OnRun - NamedType ConfirmLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4141978396 - Method 1665861916 - NamedType 1248124158" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 "%2" created</source>
+          <note from="Developer" annotates="general" priority="2">%1: Nb.of, %2: BankAccReconciliation TableCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Trans. to Reconcile - Method OnRun - NamedType DoneLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3384470977 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wannylane Transactions Preview</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Transaction Preview - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3384470977 - Control 3540653242 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Linked to Bank Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Transaction Preview - Control BankAccountNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3384470977 - Control 3540653242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Transaction Preview - Control BankAccountNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3039396206 - Control 3546827130 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3356637201">
+          <source>VAT Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Wannylane Pmt. Rec Match Det. - Control WannylaneVATAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3039396206 - Control 3546827130 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3356637201">
+          <source>VAT Amount Incl.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Wannylane Pmt. Rec Match Det. - Control WannylaneVATAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 316310023 - Method 3926911785 - NamedType 4121712173" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 316310023">
+          <source>Wannylane Statement lines are not editable</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Wannylane Pmt. Rec. Journal - Method WannylaneDisallowed - NamedType DisallowedErr</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 316310023 - Action 731442216 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Merge with Next</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Wannylane Pmt. Rec. Journal - Action WannylaneMergeWithNext - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 316310023 - Action 731442216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Merge with Next</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Wannylane Pmt. Rec. Journal - Action WannylaneMergeWithNext - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 316310023 - Action 2667443103 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Split Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Wannylane Pmt. Rec. Journal - Action WannylaneSplitLine - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 316310023 - Action 2667443103 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+          <source>Split Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Wannylane Pmt. Rec. Journal - Action WannylaneSplitLine - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 616833650 - Action 672684027 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4226890118">
+          <source>Import Pennylane Transactions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Wannylane Pmt. Rec. Journals - Action WannylaneTransactionsToNew - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 616833650 - Action 672684027 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4226890118">
+          <source>Import Pennylane Transactions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Wannylane Pmt. Rec. Journals - Action WannylaneTransactionsToNew - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 616833650 - Control 4168314379 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4226890118">
+          <source>Specifies Bank Account Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Wannylane Pmt. Rec. Journals - Control WannylaneBankAccountName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 616833650 - Control 1578579584 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4226890118">
+          <source>Specifies No. of Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Wannylane Pmt. Rec. Journals - Control WannylaneNoOfLines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 616833650 - Control 1578579584 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4226890118">
+          <source>No. of Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Wannylane Pmt. Rec. Journals - Control WannylaneNoOfLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 616833650 - Control 1080521204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4226890118">
+          <source>Specifies Statement Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Wannylane Pmt. Rec. Journals - Control WannylaneStatementDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 280806103 - Field 1512801937 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3012722930">
+          <source>Wannylane Timestamp</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Wannylane Bank Acc. Reconcil. - Field Wannylane Timestamp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4013172031 - Field 1512801937 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3772828942">
+          <source>Wannylane Timestamp</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Wannylane Bank Acc. Statement - Field Wannylane Timestamp - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4013172031 - Field 1512801937 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3772828942">
+          <source>Wannylane Timestamp</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Wannylane Bank Acc. Statement - Field Wannylane Timestamp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 3006420035 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wannylane Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet Wannylane_SETUP - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 3973244538 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wannylane Reconciliations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet Wannylane_TRANSAC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3236183320 - Action 4158396746 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3408061871">
+          <source>Setup Pennylane Connexion</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Wannylane Bank Account List - Action WannylaneSetup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3236183320 - Action 4158396746 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3408061871">
+          <source>Wannylane Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Wannylane Bank Account List - Action WannylaneSetup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3236183320 - Control 2153350301 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3408061871">
+          <source>Specifies the value of the Wannylane Bank Account ID field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Wannylane Bank Account List - Control Wannylane Bank Account ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1725419546 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Split Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Pmt. Rec. Split - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1725419546 - Method 2820573540 - NamedType 294348600" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is no next line to merge with.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Pmt. Rec. Split - Method Merge - NamedType NextLineErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1725419546 - Method 2820573540 - NamedType 2804354188" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The lines must have the same date and text.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Pmt. Rec. Split - Method Merge - NamedType MustHaveSameDateAndTextErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1725419546 - Method 1123480694 - NamedType 1540362779" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The split amount must be specified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Pmt. Rec. Split - Method Split - NamedType SplitAmountMustBeSpecifiedErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1725419546 - Control 4235150226 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the amount to be split.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Pmt. Rec. Split - Control Split Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1725419546 - Control 4235150226 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Split Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Pmt. Rec. Split - Control Split Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1725419546 - Control 874307715 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the amount of the transaction on the bank's statement shown on this reconciliation line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Pmt. Rec. Split - Control Statement Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1725419546 - Control 775380468 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the posting date of the bank account or check ledger entry on the reconciliation line when the Suggest Lines function is used.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Pmt. Rec. Split - Control Transaction Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1725419546 - Control 824487779 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the text that the customer or vendor entered on that payment transaction that is represented by the journal line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Pmt. Rec. Split - Control Transaction Text - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2033227386 - Field 2153350301 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1682139193">
+          <source>Wannylane Bank Account ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Wannylane Bank Account - Field Wannylane Bank Account ID - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
