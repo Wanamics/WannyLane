@@ -15,6 +15,7 @@ codeunit 87436 "Wannylane Setup Check"
         jCompanyName: JsonToken;
         jScopes: JsonToken;
         jCompanyRegNo: JsonToken;
+        RegNoWarningMsg: Label 'WARNING : Pennylane reg_no ''%1'' is not equal to %2 "%3" ''%4''', Comment = '%1: PennyLane reg_no, %2:CompanyInformation.TableCaption, %3:FieldCaption("Registration No.") ,%4:"Registration No."';
     begin
         CompanyInformation.Get();
         CompanyInformation.TestField("Registration No.");
@@ -28,7 +29,7 @@ codeunit 87436 "Wannylane Setup Check"
             jScopes.AsArray());
         jResponse.SelectToken('$.company.reg_no', jCompanyRegNo);
         if jCompanyRegNo.AsValue().AsText() <> CompanyInformation."Registration No." then
-            Message('WARNING : Pennylane reg_no ''%1'' is not equal to %2 "%3" ''%4''',
+            Message(RegNoWarningMsg,
                 jCompanyRegNo.AsValue().AsText(),
                 CompanyInformation.TableCaption,
                 CompanyInformation.FieldCaption("Registration No."),

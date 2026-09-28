@@ -321,6 +321,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1256359050 - Method 4229563359 - NamedType 2127079783" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Apikey is empty</source>
+          <target>La clé API est vide</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Method HasApiKey - NamedType ApiKeyIsEmptyErr</note>
+        </trans-unit>
         <trans-unit id="Table 1256359050 - Method 59423316 - NamedType 684246044" size-unit="char" translate="yes" xml:space="preserve">
           <source>Initializing #1############################</source>
           <target>Initialisation #1############################</target>
@@ -350,6 +356,12 @@
           <target>Activé</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Field Enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3662453172 - Method 1665861916 - NamedType 2461346886" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WARNING : Pennylane reg_no '%1' is not equal to %2 "%3" '%4'</source>
+          <target>ATTENTION : L'identifiant SIREN %1 de Pennylane n'est identique à %2 "%3" '%4'</target>
+          <note from="Developer" annotates="general" priority="2">%1: PennyLane reg_no, %2:CompanyInformation.TableCaption, %3:FieldCaption("Registration No.") ,%4:"Registration No."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Setup Check - Method OnRun - NamedType RegNoWarningMsg</note>
         </trans-unit>
         <trans-unit id="Page 187176147 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Pennylane Bank Establishments</source>

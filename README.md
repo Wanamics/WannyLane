@@ -1,7 +1,8 @@
-# Extension Wannylane (Wanamics)
+# Extension Wannylane
 
 ## Contexte
 Si votre comptabilité est externalisée auprès d'un cabinet comptable, ce cernier vous a peut-être proposé de collaborer via [pennylane](www.pennylane.com).
+
 ![Logo Pennylane](images/Pennylane/Logo.png)
 
 **Pennylane** dispose en particulier d'un service d'agrégation bancaire. 

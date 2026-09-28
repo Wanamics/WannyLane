@@ -100,11 +100,12 @@ table 87430
             ApiKey := '****';
     end;
 
-    procedure HaApiKey()
+    procedure HasApiKey(): Boolean
     var
         ApiKeyIsEmptyErr: Label 'Apikey is empty';
+        ApiKey: SecretText;
     begin
-        if ApiKey.IsEmpty() then
+        if not GetApiKey(ApiKey) then
             Error(ApiKeyIsEmptyErr);
     end;
 

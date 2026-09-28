@@ -46,9 +46,10 @@ codeunit 87431
     begin
         // if WannylaneSetup."Base Endpoint" = '' then begin
         WannylaneSetup.Get();
-        WannylaneSetup.TestField("Enabled");
         WannylaneSetup.TestField("Base Endpoint");
+        WannylaneSetup.HasApiKey();
         WannylaneSetup.GetApiKey(ApiKey);
+        WannylaneSetup.TestField("Enabled");
         // end;
         Client.DefaultRequestHeaders.Clear();
         // Client.DefaultRequestHeaders.Add('Client-Id', ClientId());
