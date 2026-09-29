@@ -1,7 +1,9 @@
 namespace Wanamics.Wannylane.Setup;
 
 using System.Security.User;
+using Wannylane.Wannylane;
 using Wanamics.Wannylane.Connect;
+using Wanamics.Wannylane.SupplierInvoices;
 using Wanamics.Wannylane.Transactions;
 page 87430 "Wannylane Setup"
 {
@@ -21,24 +23,24 @@ page 87430 "Wannylane Setup"
             group(General)
             {
                 Caption = 'General';
-                field("Base Endpoint"; Rec."Base Endpoint")
+                field("Base Address"; Rec."Base Address")
                 {
                 }
-                field("API Key"; ApiKey)
+                field("Secret"; Secret)
                 {
-                    Caption = 'API Token';
-                    ToolTip = 'Specifies the token.';
+                    Caption = 'Secret';
+                    ToolTip = 'Specifies the authentication secret.';
                     ApplicationArea = All;
                     MaskType = Concealed;
                     ShowMandatory = true;
 
                     trigger OnValidate()
                     begin
-                        if ApiKey = '' then
-                            Rec.DeleteApiKey(false)
+                        if Secret = '' then
+                            Rec.DeleteSecret(false)
                         else begin
-                            Rec.StoreApiKey(ApiKey);
-                            ApiKey := '****';
+                            Rec.StoreSecret(Secret);
+                            Secret := '****';
                         end;
                     end;
                 }
@@ -80,6 +82,13 @@ page 87430 "Wannylane Setup"
                 ToolTip = 'Pennylane Transactions Preview';
                 Image = BankAccountStatement;
                 RunObject = page "Wannylane Transaction Preview";
+            }
+            action(PennylaneIncomingDocuments)
+            {
+                Caption = 'Pennylane Supplier Invoices';
+                ToolTip = 'Pennylane Supplier Invoices';
+                Image = "Invoicing-Document";
+                RunObject = page "Wannylane Supplier Invoices";
             }
         }
 
@@ -123,6 +132,13 @@ page 87430 "Wannylane Setup"
                     Rec.ResetDefault();
                 end;
             }
+            action(ProxyGenerator)
+            {
+                Caption = 'Proxy Generator';
+                ToolTip = 'Proxy Generator';
+                Image = Create;
+                RunObject = Page "Wannylane Proxy Generator";
+            }
         }
         area(Promoted)
         {
@@ -142,10 +158,10 @@ page 87430 "Wannylane Setup"
             Rec.Init();
             Rec.Insert();
         end;
-        Rec.SetKeysIfAvailable(ApiKey);
+        Rec.SetKeysIfAvailable(Secret);
     end;
 
     var
         [NonDebuggable]
-        ApiKey: Text;
+        Secret: Text;
 }

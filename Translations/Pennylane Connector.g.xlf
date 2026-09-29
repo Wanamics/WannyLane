@@ -23,16 +23,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Bank Account Proxy - Field currency - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Table 1112027766 - Field 2214516256 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the IBAN field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Bank Account Proxy - Field iban - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Table 1112027766 - Field 2214516256 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>IBAN</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Bank Account Proxy - Field iban - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Table 1112027766 - Field 2686962215 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Id field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -113,95 +103,100 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Bank Accounts - Action LinkToBankAccount - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 47891919" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Wannylane API return an error : %1 %2\%3</source>
-          <note from="Developer" annotates="general" priority="2">%1:StatusCode, %2:ReasonPhrase, %3:Content</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType ApiErr</note>
+        <trans-unit id="Codeunit 3856041177 - Method 3603771110 - NamedType 47891919" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 return an error : %2 %3\%4</source>
+          <note from="Developer" annotates="general" priority="2">%1:URI, %2:StatusCode, %3:ReasonPhrase, %4:Content</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Helper - Method HandleError - NamedType ApiErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 1305559362" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3856041177 - Method 3603771110 - NamedType 1305559362" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 (%2)\%3 : %4</source>
           <note from="Developer" annotates="general" priority="2">%1:StatusShortName, %2 StatusCode, %3:Request, %4:Response</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType ErrorMessageErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Helper - Method HandleError - NamedType ErrorMessageErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 4042279644" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3856041177 - Method 3603771110 - NamedType 4042279644" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bad request</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _400BadRequestErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Helper - Method HandleError - NamedType _400BadRequestErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 2539392736" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3856041177 - Method 3603771110 - NamedType 2539392736" size-unit="char" translate="yes" xml:space="preserve">
           <source>Access denied</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _401AccessDeniedErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Helper - Method HandleError - NamedType _401AccessDeniedErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 3990970985" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3856041177 - Method 3603771110 - NamedType 3990970985" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Required</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _402PaymentRequiredErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Helper - Method HandleError - NamedType _402PaymentRequiredErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 285304002" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3856041177 - Method 3603771110 - NamedType 285304002" size-unit="char" translate="yes" xml:space="preserve">
           <source>Forbidden</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _403ForbiddenErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Helper - Method HandleError - NamedType _403ForbiddenErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 3692618971" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3856041177 - Method 3603771110 - NamedType 3692618971" size-unit="char" translate="yes" xml:space="preserve">
           <source>Not Found</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _404NotFoundErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Helper - Method HandleError - NamedType _404NotFoundErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 2928667155" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3856041177 - Method 3603771110 - NamedType 2928667155" size-unit="char" translate="yes" xml:space="preserve">
           <source>Method not allowed</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _405MethodNotAllowedErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Helper - Method HandleError - NamedType _405MethodNotAllowedErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 502427656" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3856041177 - Method 3603771110 - NamedType 502427656" size-unit="char" translate="yes" xml:space="preserve">
           <source>Request timed out</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _408RequestTimeOutErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Helper - Method HandleError - NamedType _408RequestTimeOutErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 4292577051" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3856041177 - Method 3603771110 - NamedType 4292577051" size-unit="char" translate="yes" xml:space="preserve">
           <source>Conflict</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _409ConflictErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Helper - Method HandleError - NamedType _409ConflictErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 4136666320" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3856041177 - Method 3603771110 - NamedType 4136666320" size-unit="char" translate="yes" xml:space="preserve">
           <source>Gone</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _410GoneErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Helper - Method HandleError - NamedType _410GoneErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 1518204678" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3856041177 - Method 3603771110 - NamedType 1518204678" size-unit="char" translate="yes" xml:space="preserve">
           <source>Precondition Failed</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _412PreconditionFailedErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Helper - Method HandleError - NamedType _412PreconditionFailedErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 1606980724" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3856041177 - Method 3603771110 - NamedType 1606980724" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payload Too Large / Request Entity Too Large</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _413PayloadTooLargeRequestEntityTooLargeErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Helper - Method HandleError - NamedType _413PayloadTooLargeRequestEntityTooLargeErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 3402414188" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3856041177 - Method 3603771110 - NamedType 3402414188" size-unit="char" translate="yes" xml:space="preserve">
           <source>TooManyRequests</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _429TooManyRequestsErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Helper - Method HandleError - NamedType _429TooManyRequestsErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 1332549655" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3856041177 - Method 3603771110 - NamedType 1332549655" size-unit="char" translate="yes" xml:space="preserve">
           <source>Service Temporarily Unavailable</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _503ServiceTemporarilyUnavailableErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Helper - Method HandleError - NamedType _503ServiceTemporarilyUnavailableErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1718653508 - Method 3603771110 - NamedType 23544580" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3856041177 - Method 3603771110 - NamedType 23544580" size-unit="char" translate="yes" xml:space="preserve">
           <source>Gateway Timeout</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method HandleError - NamedType _504GatewayTimeoutErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Helper - Method HandleError - NamedType _504GatewayTimeoutErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1718653508 - Method 3351914939 - NamedType 3681695477" size-unit="char" translate="yes" xml:space="preserve">
-          <source>An error occurred connecting to Wannylane</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method Request - NamedType ConnectErr</note>
+        <trans-unit id="Codeunit 3856041177 - Method 2647891866 - NamedType 3535643666" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be temporary.</source>
+          <note from="Developer" annotates="general" priority="2">%1:TableCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Helper - Method Load - NamedType MustBeTemporaryErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1718653508 - Method 3351914939 - NamedType 1542347064" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 Request Type not implemented</source>
-          <note from="Developer" annotates="general" priority="2">%1: Http Request Type</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Request - Method Request - NamedType RequestTypeErr</note>
+        <trans-unit id="Codeunit 3856041177 - Method 3351914939 - NamedType 3681695477" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An error occurred connecting to %1</source>
+          <note from="Developer" annotates="general" priority="2">%1:URI</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Helper - Method Request - NamedType ConnectErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3856041177 - Method 3351914939 - NamedType 1542347064" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 Request Type not implemented for %2</source>
+          <note from="Developer" annotates="general" priority="2">%1: Http Request Type, %2:URI</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Wannylane Helper - Method Request - NamedType RequestTypeErr</note>
         </trans-unit>
         <trans-unit id="Table 2405834756 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Wannylane Bank Establishment</source>
@@ -268,25 +263,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1256359050 - Method 1791532363 - NamedType 2127079783" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Apikey is empty</source>
+        <trans-unit id="Table 1256359050 - Method 2076771948 - NamedType 719894904" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Secret is empty</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Method GetApiKey - NamedType ApiKeyIsEmptyErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Method GetSecret - NamedType SecretIsEmptyErr</note>
         </trans-unit>
         <trans-unit id="Table 1256359050 - Method 59423316 - NamedType 684246044" size-unit="char" translate="yes" xml:space="preserve">
           <source>Initializing #1############################</source>
           <note from="Developer" annotates="general" priority="2">%1:Step (TableCaption)</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Method Initialize - NamedType InProgressLbl</note>
         </trans-unit>
-        <trans-unit id="Table 1256359050 - Field 4162414378 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1256359050 - Field 2775329549 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Base URL</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Field Base Endpoint - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Field Base Address - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Table 1256359050 - Field 4162414378 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1256359050 - Field 2775329549 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Base URL</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Field Base Endpoint - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Field Base Address - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1256359050 - Field 2891538263 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enabled</source>
@@ -358,15 +353,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Control General - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1256359050 - Control 4253087169 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the token.</source>
+        <trans-unit id="Page 1256359050 - Control 839089114 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the authentication secret.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Control API Key - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Control Secret - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1256359050 - Control 4253087169 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>API Token</source>
+        <trans-unit id="Page 1256359050 - Control 839089114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Secret</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Control API Key - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Control Secret - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1256359050 - Action 3248896082 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Pennylane Bank Accounts</source>
@@ -398,6 +393,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action PennylaneEstablishments - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1256359050 - Action 1253767628 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pennylane Supplier Invoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action PennylaneIncomingDocuments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Action 1253767628 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pennylane Supplier Invoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action PennylaneIncomingDocuments - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1256359050 - Action 3022632585 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Pennylane Transactions Preview</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -407,6 +412,16 @@
           <source>Pennylane Transactions Preview</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action PennylaneTrnasactionsPreview - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Action 1211715505 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Proxy Generator</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action ProxyGenerator - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1256359050 - Action 1211715505 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Proxy Generator</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action ProxyGenerator - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1256359050 - Action 2118687730 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reset Default</source>
@@ -442,6 +457,166 @@
           <source>Test Connection</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Action TestConnection - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wannylane Supplier Inv. Proxy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 1491873198 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>accounting_status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field accounting_status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 1121446808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 2020755560 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>archived_at</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field archived_at - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 3464043334 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>created_at</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field created_at - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 3429870193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>currency</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field currency - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 100021640 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>currency_amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field currency_amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 46946612 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>currency_amount_before_tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field currency_amount_before_tax - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 1453647535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>currency_tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field currency_tax - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 895206272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 1172943110 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>deadline</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field deadline - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 4039307522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>exchange_rate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field exchange_rate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 2525856427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>external_reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field external_reference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 1536755322 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>e_invoicing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field e_invoicing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 2139947443 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>filename</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field filename - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 2686962215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 2044134833 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>import_source</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field import_source - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 2897790647 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>invoice_number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field invoice_number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 2592457002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>label</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field label - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 512091783 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ledger_entry.id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field ledger_entry.id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 1345157216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>paid</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field paid - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 1726590826 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>payment_method_ledger_account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field payment_method_ledger_account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 2408509843 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>payment_status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field payment_status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 3688335496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>public_file_url</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field public_file_url - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 2253833182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>reconciled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field reconciled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 217798210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>remaining_amount_without_tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field remaining_amount_without_tax - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 2389409052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>remaining_amount_with_tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field remaining_amount_with_tax - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 3652925993 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>supplier.id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field supplier.id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 960455359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field tax - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 4009159476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>transaction_reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field transaction_reference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3598307426 - Field 2126525473 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>updated_at</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Supplier Inv. Proxy - Field updated_at - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3709408265 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wannylane Supplier Invoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Supplier Invoices - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 809022283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Wannylane Transaction</source>
@@ -634,7 +809,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet Wannylane_SETUP - Property Caption</note>
         </trans-unit>
         <trans-unit id="PermissionSet 3973244538 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Wannylane Reconciliations</source>
+          <source>Wannylane Transactions</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet Wannylane_TRANSAC - Property Caption</note>
         </trans-unit>
@@ -697,6 +872,91 @@
           <source>Specifies the text that the customer or vendor entered on that payment transaction that is represented by the journal line.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Pmt. Rec. Split - Control Transaction Text - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4042397138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wannylane Proxy Generator</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Proxy Generator - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4042397138 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Proxy Generator - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4042397138 - Control 3077678206 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Proxy Generator - Control PageNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4042397138 - Control 3077678206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Proxy Generator - Control PageNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4042397138 - Control 1576241450 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key Field Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Proxy Generator - Control PrimaryKeyFieldName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4042397138 - Control 1576241450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key Field Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Proxy Generator - Control PrimaryKeyFieldName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4042397138 - Control 3928821981 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Repeater Token</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Proxy Generator - Control RepeaterToken - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4042397138 - Control 3928821981 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Repeater Token</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Proxy Generator - Control RepeaterToken - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4042397138 - Control 348912950 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Proxy Generator - Control Resource - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4042397138 - Control 348912950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Proxy Generator - Control Resource - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4042397138 - Control 103915345 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Proxy Generator - Control TableNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4042397138 - Control 103915345 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Proxy Generator - Control TableNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4042397138 - Control 4180262129 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Proxy Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Proxy Generator - Control ProxyPage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4042397138 - Control 4180262129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Proxy Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Proxy Generator - Control ProxyPage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4042397138 - Control 3343573054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Proxy Table</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Proxy Generator - Control ProxyTable - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4042397138 - Control 3343573054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Proxy Table</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Proxy Generator - Control ProxyTable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4042397138 - Action 3212637975 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send request</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Proxy Generator - Action SendRequest - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2033227386 - Field 2153350301 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1682139193">
           <source>Wannylane Bank Account ID</source>

@@ -1,5 +1,4 @@
 namespace Wanamics.Wannylane.Transactions;
-using Wanamics.Wannylane.Setup;
 using Microsoft.Bank.BankAccount;
 using Wanamics.Wannylane.Connect;
 page 87432 "Wannylane Transaction Preview"

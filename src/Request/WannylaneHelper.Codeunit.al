@@ -1,6 +1,93 @@
 namespace Wanamics.Wannylane.Request;
+
+using System.Security.Authentication;
 codeunit 87434 "Wannylane Helper"
 {
+    procedure Request(pClient: HttpClient; pRequestType: Enum "Http Request Type"; pRequest: Text; pContent: HttpContent) Return: JsonToken
+    var
+        ResponseMessage: HttpResponseMessage;
+        ResponseText: Text;
+        ConnectErr: Label 'An error occurred connecting to %1', Comment = '%1:URI';
+        RequestTypeErr: Label '%1 Request Type not implemented for %2', Comment = '%1: Http Request Type, %2:URI';
+    begin
+        case pRequestType of
+            "Http Request Type"::GET:
+                if not pClient.Get(pClient.GetBaseAddress + pRequest, ResponseMessage) then
+                    Error(ConnectErr, pRequest);
+            "Http Request Type"::POST:
+                if not pClient.Post(pClient.GetBaseAddress + pRequest, pContent, ResponseMessage) then
+                    Error(ConnectErr, pRequest);
+            "Http Request Type"::DELETE:
+                if not pClient.Delete(pClient.GetBaseAddress + pRequest, ResponseMessage) then
+                    Error(ConnectErr, pRequest);
+            else
+                Error(RequestTypeErr, pRequestType, pRequest);
+        end;
+        if not ResponseMessage.IsSuccessStatusCode then
+            HandleError(pRequest, ResponseMessage)
+        else
+            if ResponseMessage.Content.ReadAs(ResponseText) and (ResponseText <> '') then
+                Return.ReadFrom(ResponseText);
+    end;
+
+    local procedure HandleError(pRequest: Text; pResponseMessage: HttpResponseMessage)
+    var
+        ApiErr: Label '%1 return an error : %2 %3\%4', Comment = '%1:URI, %2:StatusCode, %3:ReasonPhrase, %4:Content';
+        ResponseText: Text;
+        ErrorMessageErr: Label '%1 (%2)\%3 : %4', Comment = '%1:StatusShortName, %2 StatusCode, %3:Request, %4:Response';
+        _400BadRequestErr: Label 'Bad request';
+        _401AccessDeniedErr: Label 'Access denied';
+        _402PaymentRequiredErr: Label 'Payment Required';
+        _403ForbiddenErr: Label 'Forbidden';
+        _404NotFoundErr: Label 'Not Found';
+        _405MethodNotAllowedErr: Label 'Method not allowed';
+        _408RequestTimeOutErr: Label 'Request timed out';
+        _409ConflictErr: Label 'Conflict';
+        _410GoneErr: Label 'Gone';
+        _412PreconditionFailedErr: Label 'Precondition Failed';
+        _413PayloadTooLargeRequestEntityTooLargeErr: label 'Payload Too Large / Request Entity Too Large';
+        _429TooManyRequestsErr: Label 'TooManyRequests';
+        _503ServiceTemporarilyUnavailableErr: Label 'Service Temporarily Unavailable';
+        _504GatewayTimeoutErr: Label 'Gateway Timeout';
+        Response: Text;
+
+    begin
+        pResponseMessage.Content.ReadAs(Response);
+        case pResponseMessage.HttpStatusCode of
+            400:
+                Error(ErrorMessageErr, _400BadRequestErr, pResponseMessage.HttpStatusCode, pRequest, Response);
+            401:
+                Error(ErrorMessageErr, _401AccessDeniedErr, pResponseMessage.HttpStatusCode, pRequest, Response);
+            402:
+                Error(ErrorMessageErr, _402PaymentRequiredErr, pResponseMessage.HttpStatusCode, pRequest, Response);
+            403:
+                Error(ErrorMessageErr, _403ForbiddenErr, pResponseMessage.HttpStatusCode, pRequest, Response);
+            404:
+                Error(ErrorMessageErr, _404NotFoundErr, pResponseMessage.HttpStatusCode, pRequest, Response);
+            405:
+                Error(ErrorMessageErr, _405MethodNotAllowedErr, pResponseMessage.HttpStatusCode, pRequest, Response);
+            408:
+                Error(ErrorMessageErr, _408RequestTimeOutErr, pResponseMessage.HttpStatusCode, pRequest, Response);
+            409:
+                Error(ErrorMessageErr, _409ConflictErr, pResponseMessage.HttpStatusCode, pRequest, Response);
+            410:
+                Error(ErrorMessageErr, _410GoneErr, pResponseMessage.HttpStatusCode, pRequest, Response);
+            412:
+                Error(ErrorMessageErr, _412PreconditionFailedErr, pResponseMessage.HttpStatusCode, pRequest, Response);
+            413:
+                Error(ErrorMessageErr, _413PayloadTooLargeRequestEntityTooLargeErr, pResponseMessage.HttpStatusCode, pRequest, Response);
+            429:
+                Error(ErrorMessageErr, _429TooManyRequestsErr, pResponseMessage.HttpStatusCode, pRequest, Response);
+            503:
+                Error(ErrorMessageErr, _503ServiceTemporarilyUnavailableErr, pResponseMessage.HttpStatusCode, pRequest, Response);
+            504:
+                Error(ErrorMessageErr, _504GatewayTimeoutErr, pResponseMessage.HttpStatusCode, pRequest, Response);
+            else
+                pResponseMessage.Content.ReadAs(ResponseText);
+                Error(ApiErr, pRequest, pResponseMessage.HttpStatusCode, pResponseMessage.ReasonPhrase, ResponseText);
+        end;
+    end;
+
     procedure TokenToRecRef(pToken: JsonToken; pRecRef: RecordRef)
     var
         FldRef: FieldRef;
@@ -74,10 +161,10 @@ codeunit 87434 "Wannylane Helper"
         jArray: JsonArray;
         jObject: JsonObject;
         Cursor: Text;
-    // MustBeTemporaryErr: Label '%1 must be temporary.', Comment = '%1:TableCaption';
+        MustBeTemporaryErr: Label '%1 must be temporary.', Comment = '%1:TableCaption';
     begin
-        // if not pRecordRef.IsTemporary then
-        //     Error(MustBeTemporaryErr, pRecordRef.Caption);
+        if not pRecordRef.IsTemporary then
+            Error(MustBeTemporaryErr, pRecordRef.Caption);
         pRecordRef.Reset();
         pRecordRef.DeleteAll(true);
         repeat
@@ -99,6 +186,6 @@ codeunit 87434 "Wannylane Helper"
             else
                 Cursor := '?';
             Cursor += 'cursor=' + jToken.AsValue().AsText();
-        until pRequest = '';
+        until false; //pRequest = '';
     end;
 }

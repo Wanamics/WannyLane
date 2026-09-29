@@ -21,7 +21,7 @@ table 87430 "Wannylane Setup"
             ToolTip = 'Enabled';
             DataClassification = SystemMetadata;
         }
-        field(10; "Base Endpoint"; Text[150])
+        field(10; "Base Address"; Text[150])
         {
             Caption = 'Base URL';
             ToolTip = 'Base URL';
@@ -61,51 +61,51 @@ table 87430 "Wannylane Setup"
 
     trigger OnInsert()
     begin
-        DeleteApiKeys();
+        DeleteSecrets();
     end;
 
     trigger OnDelete()
     begin
-        DeleteApiKeys();
+        DeleteSecrets();
     end;
 
-    local procedure DeleteApiKeys()
+    local procedure DeleteSecrets()
     begin
-        DeleteApiKey(true);
-        DeleteApiKey(false);
+        DeleteSecret(true);
+        DeleteSecret(false);
     end;
 
-    procedure DeleteApiKey(SandboxMode: Boolean)
+    procedure DeleteSecret(SandboxMode: Boolean)
     begin
-        if IsolatedStorage.Contains(WannylaneApiKeyTok, DataScope::Company) then
-            IsolatedStorage.Delete(WannylaneApiKeyTok, DataScope::Company);
+        if IsolatedStorage.Contains(WannylaneSecretTok, DataScope::Company) then
+            IsolatedStorage.Delete(WannylaneSecretTok, DataScope::Company);
     end;
 
-    procedure StoreApiKey(ApiKey: SecretText)
+    procedure StoreSecret(Secret: SecretText)
     begin
         if not EncryptionEnabled() then
-            IsolatedStorage.Set(WannylaneApiKeyTok, ApiKey, DataScope::Company)
+            IsolatedStorage.Set(WannylaneSecretTok, Secret, DataScope::Company)
         else
-            IsolatedStorage.SetEncrypted(WannylaneApiKeyTok, ApiKey, DataScope::Company);
+            IsolatedStorage.SetEncrypted(WannylaneSecretTok, Secret, DataScope::Company);
     end;
 
-    internal procedure SetKeysIfAvailable(var ApiKey: Text)
+    internal procedure SetKeysIfAvailable(var Secret: Text)
     begin
-        if IsolatedStorage.Contains(WannylaneApiKeyTok, DataScope::Company) then
-            ApiKey := '****';
+        if IsolatedStorage.Contains(WannylaneSecretTok, DataScope::Company) then
+            Secret := '****';
     end;
 
-    internal procedure GetApiKey(var ApiKey: SecretText) ReturnValue: Boolean
+    internal procedure GetSecret(var Secret: SecretText) ReturnValue: Boolean
     var
-        ApiKeyIsEmptyErr: Label 'Apikey is empty';
+        SecretIsEmptyErr: Label 'Secret is empty';
     begin
-        ReturnValue := IsolatedStorage.Get(WannylaneApiKeyTok, DataScope::Company, ApiKey);
+        ReturnValue := IsolatedStorage.Get(WannylaneSecretTok, DataScope::Company, Secret);
         if GuiAllowed then
-            if ApiKey.IsEmpty() then
-                Error(ApiKeyIsEmptyErr);
+            if Secret.IsEmpty() then
+                Error(SecretIsEmptyErr);
         exit;
     end;
 
     var
-        WannylaneApiKeyTok: Label 'WannylaneApiKey', Locked = true;
+        WannylaneSecretTok: Label 'WannylaneSecret', Locked = true;
 }

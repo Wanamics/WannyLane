@@ -322,10 +322,10 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1256359050 - Method 1791532363 - NamedType 2127079783" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Apikey is empty</source>
+          <source>Secret is empty</source>
           <target>La clé API est vide</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Method GetApiKey - NamedType ApiKeyIsEmptyErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Method GetSecret - NamedType SecretIsEmptyErr</note>
         </trans-unit>
         <trans-unit id="Table 1256359050 - Method 59423316 - NamedType 684246044" size-unit="char" translate="yes" xml:space="preserve">
           <source>Initializing #1############################</source>
@@ -337,13 +337,13 @@
           <source>Base URL</source>
           <target>URL de base</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Field Base Endpoint - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Field Base Address - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Table 1256359050 - Field 4162414378 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Base URL</source>
           <target>URL de base</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Field Base Endpoint - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Wannylane Setup - Field Base Address - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1256359050 - Field 2891538263 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enabled</source>
@@ -433,13 +433,13 @@
           <source>Specifies the token.</source>
           <target>Soécifie la clé API</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Control API Key - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Control Secret - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1256359050 - Control 4253087169 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>API Token</source>
           <target>Clé API</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Control API Key - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Wannylane Setup - Control Secret - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1256359050 - Action 3248896082 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Pennylane Bank Accounts</source>

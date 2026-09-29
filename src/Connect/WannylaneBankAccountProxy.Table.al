@@ -6,7 +6,7 @@ using Microsoft.Finance.GeneralLedger.Setup;
 table 87431 "Wannylane Bank Account Proxy"
 {
     Caption = 'Wannylane Bank Account';
-    DataClassification = ToBeClassified;
+    DataClassification = SystemMetadata;
     LookupPageId = "Wannylane Bank Accounts";
     // DataPerCompany = false;
     TableType = Temporary;
